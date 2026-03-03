@@ -13,3 +13,5 @@ print(True and False)
 # if none True → last value
 # and → first False value
 print(5 and 7)
+
+print(type(7+3))

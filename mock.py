@@ -17,3 +17,5 @@ except ValueError:
 s= "hello"
 print(s[1:3:2])
 # 3 is not included so produces e
+
+help(type(7+3))
