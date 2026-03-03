@@ -24,3 +24,19 @@ print(9//2.0)
 # Python rounds down, however, so
 print(-7//3)
 # =-3, as -2.333333 rounded down is -3
+
+print(6/3)
+
+s = "a nut for a j!ar of t u@n a!"
+
+punctuation = "<>?/.,:|;'!@#$%^&*()"
+
+for p in punctuation:
+    s=s.replace(p, "")
+s=s.replace(" ","")
+s=s.lower()
+
+if s==s[::-1]:
+    print("This is a lovely palindrome")
+else:
+    print("Not a palindrome")
